@@ -1,89 +1,69 @@
-#PROJETOS DE CIÊNCIA DE DADOS
-O objetivo deste repositório é reunir investigações estatísticas para que seja mais fácil e entender problemas do mundo real, através de inferências estatísticas, visualizações de gráficos, algoritmos de aprendizado de máquinas e extração de dados da web.
+# Projetos de Ciência de Dados
 
-#PROJETOS
-Web scraping e automação
-Econotícias
+Bem-vindo ao repositório de Projetos de Ciência de Dados! Este espaço é dedicado a uma variedade de investigações estatísticas, análises de dados e projetos relacionados à ciência de dados. Nosso objetivo é abordar questões do mundo real por meio de inferências estatísticas, visualizações de gráficos, algoritmos de aprendizado de máquina e extração de dados da web.
 
-Ciência de dados para filosofia e literatura
+## Projetos
 
-Robo_sigaa
+### Web Scraping e Automação
+- **Econotícias**: Coleta de notícias econômicas por meio de web scraping.
 
-Webscraping para encontrar vagas em ciência de dados
+### Ciência de Dados para Filosofia e Literatura
+- **Robo_sigaa**: Automação de tarefas relacionadas ao SIGAA, sistema acadêmico da Universidade.
 
-Web scraping para encontrar conjuntos de dados
+### Webscraping para Encontrar Vagas em Ciência de Dados
+- **Web Scraping para Encontrar Conjuntos de Dados**: Extração de conjuntos de dados relevantes por meio de web scraping.
 
-Análise exploratória de dados
-Análise das empresas farmacêuticas em bolsa em 2020
+### Análise Exploratória de Dados
+- **Análise das Empresas Farmacêuticas em Bolsa em 2020**: Investigação das ações das empresas farmacêuticas em bolsa no ano de 2020.
+- **Como o Mercado Financeiro se Comportou no Brasil Durante a Pandemia?**: Análise das tendências do mercado financeiro durante a pandemia.
+- **Acidentes de Trânsito Fatais no Estado de São Paulo (2015-2020)**: Estudo sobre acidentes de trânsito fatais em São Paulo.
+- **Campanha Contra Acidentes de Trânsito (Em Breve)**: Análise da taxa de suicídio no Brasil no contexto da campanha Setembro Amarelo (1985-2015).
+- **Setembro Amarelo: Análise da Taxa de Suicídio no Brasil (1985 - 2015) [Em Inglês]**: Estudo em inglês sobre a taxa de suicídio no Brasil.
+- **Marketing Anti-Suicídio**: Análise de estratégias de marketing relacionadas à prevenção do suicídio.
+- **Índice de Empreendedorismo Feminino: Brasil x América do Sul**: Comparação do empreendedorismo feminino entre o Brasil e outros países da América do Sul.
+- **Quando as Tecnologias Descobrem as Políticas Públicas**: Análise da violência urbana com base em aplicativos móveis.
+- **Produtividade e Educação na Era dos Aplicativos**: Estudo sobre produtividade e educação com foco em aplicativos.
+- **Os Principais Esportes dos Jogos Olímpicos de 2016**: Análise dos esportes das Olimpíadas de 2016 e dados sobre atletas.
 
-Como o mercado financeiro se comportou no Brasil durante a pandemia?
+### Aprendizado de Máquina
+- **Química e Machine Learning**: Construção de um modelo para classificação de vinhos tintos.
+- **Outubro Rosa e Ciência de Dados**: Diagnóstico de câncer de mama por meio de algoritmos de Machine Learning.
+- **Precificação de Imóveis (Desafio da Empresa KeyCash - Aprovado) + Resolução no Streamlit**: Desafio de precificação de imóveis com resolução usando Streamlit.
+- **Preços de Custos Hospitalares**: Análise e previsão de preços de custos hospitalares.
+- **Prevendo o Risco de Inadimplência (Desafio da Empresa Mutual - Aprovado)**: Previsão de risco de inadimplência com base em um desafio da Mutual.
+- **Previsão de Cliques no Anúncio**: Previsão de cliques em anúncios publicitários.
 
-Acidentes de trânsito fatais no Estado de São Paulo (2015-2020)
+### Processamento de Linguagem Natural (PNL)
+- **Previsão de SPAM**: Classificação de e-mails como spam ou não spam.
+- **Previsão de 5 ou 1 Estrelas na Revisão**: Classificação de avaliações como positivas ou negativas.
+- **Relevância dos Comentários**: Determinação da relevância de comentários em plataformas online.
 
-Campanha contra acidentes de trânsito (em breve)
-Setembro Amarelo: análise da taxa de suicídio no Brasil (1985 - 2015) + Em inglês
+### Resolução de Problemas de Negócio
+- **Financiamento de Crédito para o Setor de Ciência de Dados (Desafio da Empresa Captalys - Aprovado)**: Desafio de financiamento de crédito para empresas de ciência de dados.
+- **Quantidade Ótima para o Even Break da Printer Ltda**: Determinação da quantidade ótima para o Even Break de uma empresa.
+- **Download Automatizado de Fotos de Casa para a House Ltda**: Automação do download de fotos de casas para uma empresa.
+- **Smarter Phones Ltda.**
+- **Panelas Ltda.**
+- **Privada Anterior SA**
+- **Segurança Pro Ltda.**
+- **Cheiro Bom Ltda.**
 
-Marketing anti-suicídio
+### Sistemas de Recomendação
+- **Sistema de Recomendação - Brawlhalla**: Desenvolvimento de um sistema de recomendação para o jogo Brawlhalla.
+- **Sistema de Recomendação - Jojo's Bizarre Adventure**: Sistema de recomendação para o anime Jojo's Bizarre Adventure.
+- **Sistema de Recomendação de Animes**: Recomendação de animes com base em preferências.
+- **Sistema de Recomendação Básico**: Implementação básica de um sistema de recomendação.
 
-Índice de Empreendedorismo Feminino: Brasil x América do Sul
+### Tutoriais
+- **Como Plotar Vários Gráficos Usando Loop For (Fácil)**: Tutorial sobre a criação de gráficos com loop for.
+- **Pesquisando Conjuntos de Dados na Web com Python**: Guia para encontrar conjuntos de dados na web.
+- **Web Scraping para PANDAS**: Introdução ao web scraping com Pandas.
+- **Sua Primeira Visualização de Dados Usando Countplot (Python - Seaborn) [Em Inglês]**: Tutorial sobre visualização de dados com Countplot.
 
-Quando as tecnologias descobrem as políticas públicas: análise da violência urbana a partir de aplicativos móveis
+## Contribuições
 
-Produtividade e educação na era dos aplicativos
+Contribuições para novos projetos, melhorias e correções de bugs são sempre bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
-Os principais esportes dos jogos olímpicos de 2016: suas respectivas histórias e dados sobre seus atletas
+## Autor
 
-Aprendizado de máquina
-Química e Machine Learning: construindo um modelo para classificação de vinho tinto
-
-Outubro rosa e ciência de dados: diagnosticando câncer de mama através de algoritmos de Machine Learning
-
-Precificação de imóveis (desafio da empresa KeyCash - aprovado) + resolução no streamlit
-
-Preços de custos hospitalares
-
-Prevendo o risco de inadimplência (desafio da empresa Mutual - aprovado)
-
-Previsão de cliques no anúncio
-
-PNL
-Previsão de SPAM
-
-Previsão de 5 ou 1 estrelas na revisão
-
-Relevância dos comentários
-
-Resolução de problemas de negócio:
-Financiamento de crédito para o setor de ciência de dados (desafio da empresa Captalys - aprovado)
-
-Quantidade ótima para o Even Break da Printer Ltda
-
-Download automatizado de fotos de casa para a House Ltda
-
-Smarter Phones Ltda.
-
-Panelas Ltda.
-
-Privada anterior SA
-
-Segurança Pro Ltda.
-
-Cheiro Bom Ltda.
-
-Sistemas de recomendação
-Sistema de recomendação - Brawlhalla
-
-Sistema de recomendação - Jojo's Bizarre Adventure
-
-Sistema de recomendação de animes
-
-Sistema de recomendação básico
-
-Tutoriais
-Como plotar vários gráficos usando loop for (fácil)
-
-Pesquisando conjuntos de dados na web com Python
-
-Web scraping para PANDAS
-
-Sua primeira visualização de dados usando countplot (Python - Seaborn) + Em inglês
+Este repositório é mantido por [@Davio27].
