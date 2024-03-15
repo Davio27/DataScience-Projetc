@@ -1,0 +1,692 @@
+
+Open In Colab
+Aula 1
+
+
+mensagem = "Olá, Python!"
+print(mensagem)
+     
+Olá, Python!
+
+inteiro = 10
+ponto_flutuante = 3.14
+texto = "Isso é uma string"
+booleano = True
+     
+
+nome = input("Digite o seu nome: ")
+print("Olá, " + nome + "!")
+     
+Digite o seu nome: eduarda
+Olá, eduarda!
+
+#Estruturas de Controle:**
+# **Condicionais (if, else, elif):**
+
+idade = 18
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
+'''
+**Laços (for, while):**
+
+'''
+for i in range(5):
+    print(i)
+
+contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1
+     
+Você é maior de idade.
+0
+1
+2
+3
+4
+0
+1
+2
+3
+4
+
+#Listas são coleções ordenadas de itens:
+
+frutas = ["maçã", "banana", "laranja"]
+print(frutas[0])  # Acessando o primeiro item
+frutas.append("uva")  # Adicionando um item
+
+     
+maçã
+
+#7. Funções:**
+
+def saudacao(nome):
+    print("Olá, " + nome + "!")
+
+saudacao("Alice")
+     
+Olá, Alice!
+Aula 2
+
+
+from google.colab import files
+uploaded = files.upload()
+     
+Upload widget is only available when the cell has been executed in the current browser session. Please rerun this cell to enable.
+Saving dados.txt to dados.txt
+
+with open('dados.txt', 'r') as arquivo:
+    linha = arquivo.readline()  # Lê uma linha do arquivo
+    while linha:
+        print(linha)  # Imprime a linha lida
+        linha = arquivo.readline()  # Lê a próxima linha
+
+# Ou, para ler todas as linhas de uma vez:
+with open('dados.txt', 'r') as arquivo:
+    linhas = arquivo.readlines()  # Lê todas as linhas do arquivo
+    for linha in linhas:
+        print(linha)  # Imprime cada linha
+     
+Otávio Oliveira,47391,27/06/2019
+
+Giovanna Lima,30662,17/06/2019
+
+Carla Gomes,22657,25/06/2019
+
+Luan Azevedo,25605,12/06/2019
+
+Luana Melo,12310,25/06/2019
+
+Nicolash Castro,11424,04/06/2019
+
+Yasmin Barbosa,20231,23/06/2019
+
+Luiz Lima,20090,29/06/2019
+
+Eduarda Araujo,37328,13/06/2019
+
+Tânia Martins,43466,20/06/2019
+
+Júlio Cunha,15999,24/06/2019
+
+Luis Costa,45657,29/06/2019
+
+Júlia Fernandes,11837,23/06/2019
+
+Anna Pinto,11740,09/06/2019
+
+Gabrielle Rocha,28365,03/06/2019
+
+Tomás Santos,45619,22/06/2019
+
+Vitór Santos,25209,16/06/2019
+
+Rafaela Barros,48447,22/06/2019
+
+Gabriel Costa,13110,30/06/2019
+
+Bruno Pereira,24749,03/06/2019
+
+Joao Cardoso,44113,30/06/2019
+
+Carolina Azevedo,49489,02/06/2019
+
+Isabelle Barros,20763,25/06/2019
+
+Enzo Ribeiro,21284,18/06/2019
+
+Beatriz Rocha,30682,27/06/2019
+
+Alice Dias,44387,30/06/2019
+
+Nicole Rocha,36763,17/06/2019
+
+Emilly Correia,30745,07/06/2019
+
+Yasmin Barbosa,38007,26/06/2019
+
+Clara Melo,32942,26/06/2019
+
+Vinicius Lima,13647,27/06/2019
+
+Victor Azevedo,44581,14/06/2019
+
+Livia Correia,30714,23/06/2019
+
+Aline Melo,42886,03/06/2019
+
+Anna Cavalcanti,47932,05/06/2019
+
+Mateus Cavalcanti,32413,19/06/2019
+
+Vinícius Melo,33357,26/06/2019
+
+Otávio Alves,22231,27/06/2019
+
+Daniel Araujo,44501,21/06/2019
+
+Samuel Dias,34260,01/06/2019
+
+Emily Pinto,25378,20/06/2019
+
+Luana Lima,36247,06/06/2019
+
+Breno Sousa,38128,22/06/2019
+
+Gabriela Ferreira,33947,27/06/2019
+
+Sophia Fernandes,29039,19/06/2019
+
+Isabelle Almeida,37021,30/06/2019
+
+Kauan Ribeiro,34612,06/06/2019
+
+Anna Almeida,15878,13/06/2019
+
+Lara Cavalcanti,44284,26/06/2019
+
+André Pereira,25920,08/06/2019
+
+Sofia Ferreira,23762,27/06/2019
+
+Ryan Melo,29376,15/06/2019
+
+Anna Melo,36854,27/06/2019
+
+Isabela Souza,31654,01/06/2019
+
+Nicolas Barros,23161,25/06/2019
+
+Gabrielle Gomes,12481,11/06/2019
+
+Emily Barros,14757,07/06/2019
+
+Bianca Souza,41569,24/06/2019
+
+Matilde Oliveira,31959,01/06/2019
+
+Renan Cavalcanti,15402,13/06/2019
+
+Melissa Rodrigues,21864,08/06/2019
+
+Lucas Araujo,18290,21/06/2019
+
+Carla Pereira,17477,19/06/2019
+
+Leila Almeida,38065,22/06/2019
+
+Kauê Silva,38371,14/06/2019
+
+Lara Carvalho,32460,03/06/2019
+
+Isabella Souza,29211,05/06/2019
+
+Martim Almeida,32766,05/06/2019
+
+Isabela Souza,17053,18/06/2019
+
+Beatriz Almeida,10413,18/06/2019
+
+Brenda Almeida,23501,04/06/2019
+
+Kauã Oliveira,41188,14/06/2019
+
+Maria Ferreira,13816,28/06/2019
+
+Douglas Alves,38945,28/06/2019
+
+Tânia Lima,31731,11/06/2019
+
+Luan Ribeiro,15352,17/06/2019
+
+Beatrice Alves,24262,25/06/2019
+
+Carla Carvalho,37282,27/06/2019
+
+Victor Martins,38587,26/06/2019
+
+Melissa Gomes,23020,28/06/2019
+
+Bruno Costa,39107,11/06/2019
+
+Breno Castro,35635,21/06/2019
+
+Davi Carvalho,25796,13/06/2019
+
+Renan Barbosa,28837,14/06/2019
+
+André Ferreira,43941,17/06/2019
+
+Igor Carvalho,44039,10/06/2019
+
+Thaís Rodrigues,31738,06/06/2019
+
+Julieta Santos,30533,22/06/2019
+
+Leila Pinto,17608,16/06/2019
+
+Thiago Gomes,29771,24/06/2019
+
+Matheus Lima,41340,10/06/2019
+
+Fernanda Cavalcanti,23453,09/06/2019
+
+Gabriela Azevedo,17901,09/06/2019
+
+Leonor Pereira,18719,02/06/2019
+
+Eduarda Costa,13714,14/06/2019
+
+Carla Correia,39221,05/06/2019
+
+Rafael Fernandes,22844,18/06/2019
+
+Caio Barbosa,41783,16/06/2019
+
+Ana Dias,23371,28/06/2019
+
+
+
+
+
+Otávio Oliveira,47391,27/06/2019
+
+Giovanna Lima,30662,17/06/2019
+
+Carla Gomes,22657,25/06/2019
+
+Luan Azevedo,25605,12/06/2019
+
+Luana Melo,12310,25/06/2019
+
+Nicolash Castro,11424,04/06/2019
+
+Yasmin Barbosa,20231,23/06/2019
+
+Luiz Lima,20090,29/06/2019
+
+Eduarda Araujo,37328,13/06/2019
+
+Tânia Martins,43466,20/06/2019
+
+Júlio Cunha,15999,24/06/2019
+
+Luis Costa,45657,29/06/2019
+
+Júlia Fernandes,11837,23/06/2019
+
+Anna Pinto,11740,09/06/2019
+
+Gabrielle Rocha,28365,03/06/2019
+
+Tomás Santos,45619,22/06/2019
+
+Vitór Santos,25209,16/06/2019
+
+Rafaela Barros,48447,22/06/2019
+
+Gabriel Costa,13110,30/06/2019
+
+Bruno Pereira,24749,03/06/2019
+
+Joao Cardoso,44113,30/06/2019
+
+Carolina Azevedo,49489,02/06/2019
+
+Isabelle Barros,20763,25/06/2019
+
+Enzo Ribeiro,21284,18/06/2019
+
+Beatriz Rocha,30682,27/06/2019
+
+Alice Dias,44387,30/06/2019
+
+Nicole Rocha,36763,17/06/2019
+
+Emilly Correia,30745,07/06/2019
+
+Yasmin Barbosa,38007,26/06/2019
+
+Clara Melo,32942,26/06/2019
+
+Vinicius Lima,13647,27/06/2019
+
+Victor Azevedo,44581,14/06/2019
+
+Livia Correia,30714,23/06/2019
+
+Aline Melo,42886,03/06/2019
+
+Anna Cavalcanti,47932,05/06/2019
+
+Mateus Cavalcanti,32413,19/06/2019
+
+Vinícius Melo,33357,26/06/2019
+
+Otávio Alves,22231,27/06/2019
+
+Daniel Araujo,44501,21/06/2019
+
+Samuel Dias,34260,01/06/2019
+
+Emily Pinto,25378,20/06/2019
+
+Luana Lima,36247,06/06/2019
+
+Breno Sousa,38128,22/06/2019
+
+Gabriela Ferreira,33947,27/06/2019
+
+Sophia Fernandes,29039,19/06/2019
+
+Isabelle Almeida,37021,30/06/2019
+
+Kauan Ribeiro,34612,06/06/2019
+
+Anna Almeida,15878,13/06/2019
+
+Lara Cavalcanti,44284,26/06/2019
+
+André Pereira,25920,08/06/2019
+
+Sofia Ferreira,23762,27/06/2019
+
+Ryan Melo,29376,15/06/2019
+
+Anna Melo,36854,27/06/2019
+
+Isabela Souza,31654,01/06/2019
+
+Nicolas Barros,23161,25/06/2019
+
+Gabrielle Gomes,12481,11/06/2019
+
+Emily Barros,14757,07/06/2019
+
+Bianca Souza,41569,24/06/2019
+
+Matilde Oliveira,31959,01/06/2019
+
+Renan Cavalcanti,15402,13/06/2019
+
+Melissa Rodrigues,21864,08/06/2019
+
+Lucas Araujo,18290,21/06/2019
+
+Carla Pereira,17477,19/06/2019
+
+Leila Almeida,38065,22/06/2019
+
+Kauê Silva,38371,14/06/2019
+
+Lara Carvalho,32460,03/06/2019
+
+Isabella Souza,29211,05/06/2019
+
+Martim Almeida,32766,05/06/2019
+
+Isabela Souza,17053,18/06/2019
+
+Beatriz Almeida,10413,18/06/2019
+
+Brenda Almeida,23501,04/06/2019
+
+Kauã Oliveira,41188,14/06/2019
+
+Maria Ferreira,13816,28/06/2019
+
+Douglas Alves,38945,28/06/2019
+
+Tânia Lima,31731,11/06/2019
+
+Luan Ribeiro,15352,17/06/2019
+
+Beatrice Alves,24262,25/06/2019
+
+Carla Carvalho,37282,27/06/2019
+
+Victor Martins,38587,26/06/2019
+
+Melissa Gomes,23020,28/06/2019
+
+Bruno Costa,39107,11/06/2019
+
+Breno Castro,35635,21/06/2019
+
+Davi Carvalho,25796,13/06/2019
+
+Renan Barbosa,28837,14/06/2019
+
+André Ferreira,43941,17/06/2019
+
+Igor Carvalho,44039,10/06/2019
+
+Thaís Rodrigues,31738,06/06/2019
+
+Julieta Santos,30533,22/06/2019
+
+Leila Pinto,17608,16/06/2019
+
+Thiago Gomes,29771,24/06/2019
+
+Matheus Lima,41340,10/06/2019
+
+Fernanda Cavalcanti,23453,09/06/2019
+
+Gabriela Azevedo,17901,09/06/2019
+
+Leonor Pereira,18719,02/06/2019
+
+Eduarda Costa,13714,14/06/2019
+
+Carla Correia,39221,05/06/2019
+
+Rafael Fernandes,22844,18/06/2019
+
+Caio Barbosa,41783,16/06/2019
+
+Ana Dias,23371,28/06/2019
+
+
+
+
+
+
+ import pandas as pd
+     
+
+df = pd.read_csv('dados.txt', header=None, names=['Nome', 'Matrícula', 'Data'])
+     
+
+  print(df)
+     
+                Nome  Matrícula        Data
+0    Otávio Oliveira      47391  27/06/2019
+1      Giovanna Lima      30662  17/06/2019
+2        Carla Gomes      22657  25/06/2019
+3       Luan Azevedo      25605  12/06/2019
+4         Luana Melo      12310  25/06/2019
+..               ...        ...         ...
+94     Eduarda Costa      13714  14/06/2019
+95     Carla Correia      39221  05/06/2019
+96  Rafael Fernandes      22844  18/06/2019
+97      Caio Barbosa      41783  16/06/2019
+98          Ana Dias      23371  28/06/2019
+
+[99 rows x 3 columns]
+
+df.plot()
+     
+<Axes: >
+
+
+# Ordena os dados pelo campo "Nome"
+df_nome_idx = df.sort_values(by='Nome')
+
+# Exibe o DataFrame ordenado
+print(df_nome_idx)
+     
+              Nome  Matrícula        Data
+25      Alice Dias      44387  30/06/2019
+33      Aline Melo      42886  03/06/2019
+98        Ana Dias      23371  28/06/2019
+84  André Ferreira      43941  17/06/2019
+49   André Pereira      25920  08/06/2019
+..             ...        ...         ...
+30   Vinicius Lima      13647  27/06/2019
+36   Vinícius Melo      33357  26/06/2019
+16    Vitór Santos      25209  16/06/2019
+6   Yasmin Barbosa      20231  23/06/2019
+28  Yasmin Barbosa      38007  26/06/2019
+
+[99 rows x 3 columns]
+Aula 3
+
+
+ import pandas as pd
+     
+
+titanic_url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
+
+     
+
+ titanic_data = pd.read_csv(titanic_url)
+     
+
+print(titanic_data.head())
+     
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+
+print(titanic_data.info())
+     
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 12 columns):
+ #   Column       Non-Null Count  Dtype  
+---  ------       --------------  -----  
+ 0   PassengerId  891 non-null    int64  
+ 1   Survived     891 non-null    int64  
+ 2   Pclass       891 non-null    int64  
+ 3   Name         891 non-null    object 
+ 4   Sex          891 non-null    object 
+ 5   Age          714 non-null    float64
+ 6   SibSp        891 non-null    int64  
+ 7   Parch        891 non-null    int64  
+ 8   Ticket       891 non-null    object 
+ 9   Fare         891 non-null    float64
+ 10  Cabin        204 non-null    object 
+ 11  Embarked     889 non-null    object 
+dtypes: float64(2), int64(5), object(5)
+memory usage: 83.7+ KB
+None
+
+print(titanic_data.describe())
+     
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+  titanic_campos=titanic_data.head()
+  titanic_campos.columns
+     
+Index(['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp',
+       'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked'],
+      dtype='object')
+
+titanic_campos.columns=['PassageiroId', 'Sobreviveu', 'Classe', 'Nome', 'Sexo', 'Idade', 'Id','Janela', 'Bilhete', 'Tarifa', 'Cabine', 'Embarcado']
+     
+
+import numpy as np
+from google.colab import autoviz
+
+def value_plot(df, y, figscale=1):
+  from matplotlib import pyplot as plt
+  df[y].plot(kind='line', figsize=(8 * figscale, 4 * figscale), title=y)
+  plt.gca().spines[['top', 'right']].set_visible(False)
+  plt.tight_layout()
+  return autoviz.MplChart.from_current_mpl_state()
+
+chart = value_plot(titanic_campos, *['Sobreviveu'], **{})
+chart
+     
+
+
+import numpy as np
+from google.colab import autoviz
+
+def value_plot(df, y, figscale=1):
+  from matplotlib import pyplot as plt
+  df[y].plot(kind='line', figsize=(8 * figscale, 4 * figscale), title=y)
+  plt.gca().spines[['top', 'right']].set_visible(False)
+  plt.tight_layout()
+  return autoviz.MplChart.from_current_mpl_state()
+
+chart = value_plot(titanic_campos, *['Idade'], **{})
+chart
+
+     
+
+
+import numpy as np
+from google.colab import autoviz
+
+def categorical_histogram(df, colname, figscale=1, mpl_palette_name='Dark2'):
+  from matplotlib import pyplot as plt
+  import seaborn as sns
+  df.groupby(colname).size().plot(kind='barh', color=sns.palettes.mpl_palette(mpl_palette_name), figsize=(8*figscale, 4.8*figscale))
+  plt.gca().spines[['top', 'right',]].set_visible(False)
+  return autoviz.MplChart.from_current_mpl_state()
+
+chart = categorical_histogram(titanic_campos, *['Sexo'], **{})
+chart
+
+     
+
+
+display(titanic_campos)
+
+     
+PassageiroId	Sobreviveu	Classe	Nome	Sexo	Idade	Id	Janela	Bilhete	Tarifa	Cabine	Embarcado
+0	1	0	3	Braund, Mr. Owen Harris	male	22.0	1	0	A/5 21171	7.2500	NaN	S
+1	2	1	1	Cumings, Mrs. John Bradley (Florence Briggs Th...	female	38.0	1	0	PC 17599	71.2833	C85	C
+2	3	1	3	Heikkinen, Miss. Laina	female	26.0	0	0	STON/O2. 3101282	7.9250	NaN	S
+3	4	1	1	Futrelle, Mrs. Jacques Heath (Lily May Peel)	female	35.0	1	0	113803	53.1000	C123	S
+4	5	0	3	Allen, Mr. William Henry	male	35.0	0	0	373450	8.0500	NaN	S
